@@ -1,0 +1,94 @@
+.header {
+    position: relative;
+    height: 5rem;
+    background-color: #333;
+    padding: 0 1.5rem;
+
+    .logo {
+        float: left;
+        color: #fff;
+        line-height: 5rem;
+    }
+
+    .header-nav {
+        float: left;
+        height: 100%;
+        margin-left: 10rem;
+
+        .nav-list {
+            height: 100%;
+
+            .nav-item {
+                width: 15rem;
+                float: left;
+
+                .nav-lk {
+                    color: #eee;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    line-height: 5rem;
+                }
+            }
+        }
+    }
+
+    .fa-bars {
+        display: none;
+        color: #eee;
+        float: right;
+        font-size: 1.6rem;
+        line-height: 5rem;
+    }
+}
+
+.banner {
+    position: relative;
+    height: 60vh;
+    background: url(../img/b.jpg)no-repeat center/cover;
+
+    .avator {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -11rem 0 0 -6.5rem;
+        width: 13rem;
+        height: 22rem;
+
+        img {
+            width: 13rem;
+            height: 13rem;
+            border-radius: 50%;
+            border: 5px solid #ddd;
+            box-shadow: .5rem .8rem 1rem #333;
+        }
+
+        .title {
+            font-size: 2rem;
+            color: #eee;
+            text-align: center;
+            text-shadow: .1rem .3rem .5rem #000;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.course-board {
+    width: 120rem;
+    margin: 50px auto;
+
+    .inner {
+        width: 122rem;
+        margin-left: -1rem;
+
+        .course-card {
+            float: left;
+            width: 25%;
+            padding: 1rem;
+            border: .1rem solid transparent;
+
+            &:hover {
+                border-color: #ddd;
+            }
+        }
+    }
+}

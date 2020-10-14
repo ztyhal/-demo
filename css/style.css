@@ -1,0 +1,80 @@
+.header {
+  position: relative;
+  height: 5rem;
+  background-color: #333;
+  padding: 0 1.5rem;
+}
+.header .logo {
+  float: left;
+  color: #fff;
+  line-height: 5rem;
+}
+.header .header-nav {
+  float: left;
+  height: 100%;
+  margin-left: 10rem;
+}
+.header .header-nav .nav-list {
+  height: 100%;
+}
+.header .header-nav .nav-list .nav-item {
+  width: 15rem;
+  float: left;
+}
+.header .header-nav .nav-list .nav-item .nav-lk {
+  color: #eee;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 5rem;
+}
+.header .fa-bars {
+  display: none;
+  color: #eee;
+  float: right;
+  font-size: 1.6rem;
+  line-height: 5rem;
+}
+.banner {
+  position: relative;
+  height: 60vh;
+  background: url(../img/b.jpg) no-repeat center / cover;
+}
+.banner .avator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -11rem 0 0 -6.5rem;
+  width: 13rem;
+  height: 22rem;
+}
+.banner .avator img {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+  box-shadow: 0.5rem 0.8rem 1rem #333;
+}
+.banner .avator .title {
+  font-size: 2rem;
+  color: #eee;
+  text-align: center;
+  text-shadow: 0.1rem 0.3rem 0.5rem #000;
+  margin-top: 1rem;
+}
+.course-board {
+  width: 120rem;
+  margin: 50px auto;
+}
+.course-board .inner {
+  width: 122rem;
+  margin-left: -1rem;
+}
+.course-board .inner .course-card {
+  float: left;
+  width: 25%;
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+}
+.course-board .inner .course-card:hover {
+  border-color: #ddd;
+}
